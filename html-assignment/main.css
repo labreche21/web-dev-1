@@ -1,0 +1,58 @@
+ title {
+   color: white; 
+ }
+
+body {
+    background-color: blue;
+    padding: 18px;
+    font-weight:bold ;
+}
+
+#IMG_5970.jpeg{
+    box-shadow: horizontal , 0px vertical 2px;
+    color: black ;
+    size: 2pt;
+}
+
+
+table, th, td {
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    
+}
+
+h1 {
+    color: whitesmoke;
+    font-size:18px;
+}
+
+article {
+    color: white;
+    font-size: 18px;
+}
+
+blockquote {
+    background-color: black;
+    padding: 18px;
+}
+
+ ul li  {
+    border: 2px solid white;
+}
+
+section {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    font-style: normal;
+}
+
+footer, h1, h2 {
+    color: white;
+}
