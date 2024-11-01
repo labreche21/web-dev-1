@@ -33,7 +33,7 @@ article {
 }
 
 blockquote {
-    background-color: black;
+    background-color: blue;
     padding: 18px;
 }
 
@@ -48,7 +48,7 @@ section {
 }
 
 nav {
-    background-color: black;
+    background-color: blue;
     color: white;
     font-style: normal;
 }
