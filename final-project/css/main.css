@@ -62,8 +62,13 @@ header nav a {
 
 /* About section */
 #about {
+    background-color: beige;
     padding: 50px;
-    text-align: center;
+    text-align:right;
+}
+
+#about img{
+    text-align: left;
 }
 
 /* Services section */
