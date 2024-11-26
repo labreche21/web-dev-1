@@ -1,0 +1,155 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 80px;
+}
+
+header .logo {
+    align-items: right;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: orange;
+}
+
+/* Hero section */
+#hero {
+    background-image: url("/final-project/images/main-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#hero button {
+    background-color: orange;
+    color: black; 
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* About section */
+#about {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Services section */
+#services {
+    padding: 50px;
+}
+
+#services .service {
+    background-color:beige;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Vision section */
+#vision {
+    background-image: url("/final-project/images/vision.jpg");
+    padding: 50px;
+    color: #fff;
+    text-align: left;
+}
+
+#vision button {
+background-color: black;
+color: white;
+border-color: orange;
+}
+
+/* Team section */
+#team {
+    padding: 50px;
+}
+
+#team .team-member {
+    background-color: beige;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contact section */
+#contact {
+    padding: 50px;
+}
+
+#contact form {
+    margin-bottom: 20px;
+}
+
+#contact form input, #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact form button {
+    background-color: #333;
+    color: orange;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact .location, #contact .hours {
+    text-align: center;
+}
+table {
+    color: #333;
+    margin: 20px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color:orange;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive design (example) */
+@media (max-width: 768px) {
+    header nav ul {
+        display: none;
+    }
+
+    /* Other responsive styles */
+}
