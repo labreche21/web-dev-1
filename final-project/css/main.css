@@ -8,6 +8,31 @@ body {
 header {
     background-color: black;
     padding: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container
+ ul li {
+    margin-right: 20px;
+}
+
+.nav-container form {
+    margin-left: 20px;
 }
 
 header .logo {
@@ -38,48 +63,65 @@ header nav a {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+    padding: 100px ;
+    position: relative; /* Make the hero section a relative container */
 }
 
-#hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+#hero::after {
+    content: "Welcome to Three Star Media your trusted partner for digital solutions ";
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
+    z-index: 2; /* Set the z-index of the overlay */
 }
 
-#hero p {
-    font-size: 24px;
-    margin-bottom: 20px;
+#hero h1, #hero p, #hero button {
+    z-index: 2;
+    text-align: bottom; /* Set the z-index of the text and button */
+    position: absolute;
 }
 
-#hero button {
-    background-color: orange;
-    color: black; 
-    padding: 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
 /* About section */
 #about {
     background-color: beige;
     padding: 50px;
-    text-align:right;
+    display: flex; /* Make it a flex container */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Align items vertically */
 }
 
-#about img{
-    text-align: left;
+#about img {
+    width: 30%; /* Adjust the width as needed */
+}
+#about h2{
+    text-align: top;
 }
 
 /* Services section */
 #services {
-    padding: 50px;
+    padding: 100px;
+    text-align: center;
 }
 
 #services .service {
-    background-color:beige;
-    padding: 20px;
+    background-color: beige;
+    padding: 100px;
     margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services button {
+    padding: 20px;
+    background-color: black;
+    color: #fff;
     text-align: center;
 }
 
